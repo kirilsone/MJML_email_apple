@@ -1,0 +1,17 @@
+<mjml>
+    <mj-head>
+        <mj-title>Apple title</mj-title>
+        <mj-preview>Apple preview</mj-preview>
+        <mj-style>
+
+        </mj-style>
+    </mj-head>
+    <mj-body width="640px">
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image width="20" height="20"
+                          src="https://cdn-icons-png.flaticon.com/512/226/226769.png" alt="Apple"/>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
