@@ -26,7 +26,7 @@
             .value {
                 font-family: Verdana, Arial, sans-serif;
                 font-size: 30px;
-                line-height: 33px;
+                line-height: 36px;
                 font-weight: bold;
                 margin-bottom: 5px;
             }
@@ -35,43 +35,63 @@
                 font-family: Verdana, Arial, sans-serif;
                 font-size: 10px;
                 line-height: 12px;
-                font-weight: bold;
-                margin-bottom: 0;
+                font-weight: normal;
+            }
+
+            .here {
+                text-decoration: underline;
+                color: #51ACFF;
+            }
+
+            @media (max-width: 600px) {
+                .bottom {
+                    padding: 30px;
+                !important;
+                }
+
+                .bottom td {
+                    padding: 10px;
+                !important;
+                }
+
+                .title h1 {
+                    font-size: 30px !important;
+                    line-height: 40px !important;
+                }
             }
         </mj-style>
     </mj-head>
     <mj-body width="640px">
         <mj-section background-color="#313131" padding="0">
             <mj-column>
-                <mj-image width="24" padding="24px" align="center"
+                <mj-image width="24px" padding="24px" align="center"
                           src="https://cdn-icons-png.flaticon.com/512/226/226769.png" alt="Apple"/>
             </mj-column>
         </mj-section>
 
         <mj-wrapper css-class="columns" padding="0" padding-bottom="30px">
-        <mj-section padding="0">
-            <mj-column>
-                <mj-text font-family="Verdana" font-size="35px" font-style="normal" font-weight="800"
-                         line-height="45px"
-                         align="center"
-                         padding="60px 30px 45px 30px">
-                    <h1>Our most stunning take on post-production.</h1>
-                </mj-text>
-                <mj-button font-family="Verdana" font-weight="bold" color="#51ACFF" background-color="transparent"
-                           font-size="14px" line-height="18px"
-                           css-class="link" href="https://www.apple.com/imac-27/">Read more
-                    <i class="arrow"></i>
-                </mj-button>
-            </mj-column>
-        </mj-section>
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-text font-family="Verdana" font-size="35px" font-style="normal" font-weight="800"
+                             line-height="45px"
+                             align="center"
+                             padding="60px 30px 45px 30px">
+                        <h1>Our most stunning take on post-production.</h1>
+                    </mj-text>
+                    <mj-button font-family="Verdana" font-weight="bold" color="#51ACFF" background-color="transparent"
+                               font-size="14px" line-height="18px"
+                               css-class="link" href="https://www.apple.com/imac-27/">Read more
+                        <i class="arrow"></i>
+                    </mj-button>
+                </mj-column>
+            </mj-section>
 
-        <mj-section>
-            <mj-column>
-                <mj-image align="center"
-                          src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac-27-cto-hero-202008?wid=1254&hei=1044&fmt=jpeg&qlt=80&.v=1594932848000"></mj-image>
-            </mj-column>
-        </mj-section>
-
+            <mj-section padding="0">
+                <mj-column>
+                    <mj-image align="center"
+                              src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac-27-cto-hero-202008?wid=1254&hei=1044&fmt=jpeg&qlt=80&.v=1594932848000"></mj-image>
+                </mj-column>
+            </mj-section>
 
             <mj-section padding="0 60px">
                 <mj-column>
@@ -103,27 +123,41 @@
                 </mj-column>
             </mj-section>
         </mj-wrapper>
+
+        <mj-section background-color="#313131" padding="48px 0px 20px 0px">
+            <mj-group>
+                <mj-column>
+                    <mj-button background-color="transparent">
+                        <image src="http://work.maxgraph.ru/mail/mjml-letter/fb.png"/>
+                    </mj-button>
+                </mj-column>
+                <mj-column>
+                    <mj-button background-color="transparent">
+                        <image src="http://work.maxgraph.ru/mail/mjml-letter/tw.png"/>
+                    </mj-button>
+                </mj-column>
+                <mj-column>
+                    <mj-button background-color="transparent">
+                        <image src="http://work.maxgraph.ru/mail/mjml-letter/in.png"/>
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <mj-section css-class="bottom" background-color="#313131" padding="48px 30px">
+            <mj-column>
+                <mj-text font-family="Verdana" font-size="10px" line-height="18px" font-weight="normal" color="#7d7d7d"
+                         align="center">All rights reserved. Copyright © 2022 Apple Inc. 1 Infinite Loop, Cupertino, CA
+                    95014
+                </mj-text>
+                <mj-text font-family="Verdana" font-size="10px" line-height="18px" font-weight="normal" color="#7d7d7d"
+                         align="center">This email was sent to hello@you.com because you indicated that you’d like to
+                    stay up to
+                    date on the latest features, services, support info and offers for Final Cut Pro. You can
+                    unsubscribe from Final Cut Pro emails
+                    <a class="here">here</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
     </mj-body>
 </mjml>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
