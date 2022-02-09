@@ -48,6 +48,7 @@
             </mj-column>
         </mj-section>
 
+        <mj-wrapper css-class="columns" padding="0" padding-bottom="30px">
         <mj-section padding="0">
             <mj-column>
                 <mj-text font-family="Verdana" font-size="35px" font-style="normal" font-weight="800"
@@ -71,7 +72,7 @@
             </mj-column>
         </mj-section>
 
-        <mj-wrapper>
+
             <mj-section padding="0 60px">
                 <mj-column>
                     <mj-text>
@@ -82,8 +83,6 @@
                     <mj-image align="left" height="4px" width="96px"
                               src="https://funart.pro/uploads/posts/2021-04/thumbs/1618531822_44-funart_pro-p-oboi-fon-oranzhevii-gradient-45.jpg"></mj-image>
                 </mj-column>
-            </mj-section>
-            <mj-section>
                 <mj-column>
                     <mj-text>
                         <div class="up">up to</div>
@@ -93,8 +92,6 @@
                     <mj-image align="left" height="4px" width="96px"
                               src="https://funart.pro/uploads/posts/2021-04/thumbs/1618531822_44-funart_pro-p-oboi-fon-oranzhevii-gradient-45.jpg"></mj-image>
                 </mj-column>
-            </mj-section>
-            <mj-section padding="">
                 <mj-column>
                     <mj-text>
                         <div class="up">up to</div>
