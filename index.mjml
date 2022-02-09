@@ -3,15 +3,130 @@
         <mj-title>Apple title</mj-title>
         <mj-preview>Apple preview</mj-preview>
         <mj-style>
+            h1 {
+                all: inherit;
+            }
 
+            .arrow {
+                border: solid #51ACFF;
+                border-width: 0 2.2px 2.2px 0;
+                display: inline-block;
+                padding: 3px;
+                transform: rotate(-45deg);
+            }
+
+            .up {
+                font-family: Verdana, Arial, sans-serif;
+                font-size: 10px;
+                line-height: 12px;
+                font-weight: normal;
+                margin-bottom: 5px;
+            }
+
+            .value {
+                font-family: Verdana, Arial, sans-serif;
+                font-size: 30px;
+                line-height: 33px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .advantages {
+                font-family: Verdana, Arial, sans-serif;
+                font-size: 10px;
+                line-height: 12px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
         </mj-style>
     </mj-head>
     <mj-body width="640px">
-        <mj-section>
-            <mj-column width="100%">
-                <mj-image width="20" height="20"
+        <mj-section background-color="#313131" padding="0">
+            <mj-column>
+                <mj-image width="24" padding="24px" align="center"
                           src="https://cdn-icons-png.flaticon.com/512/226/226769.png" alt="Apple"/>
             </mj-column>
         </mj-section>
+
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text font-family="Verdana" font-size="35px" font-style="normal" font-weight="800"
+                         line-height="45px"
+                         align="center"
+                         padding="60px 30px 45px 30px">
+                    <h1>Our most stunning take on post-production.</h1>
+                </mj-text>
+                <mj-button font-family="Verdana" font-weight="bold" color="#51ACFF" background-color="transparent"
+                           font-size="14px" line-height="18px"
+                           css-class="link" href="https://www.apple.com/imac-27/">Read more
+                    <i class="arrow"></i>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                <mj-image align="center"
+                          src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac-27-cto-hero-202008?wid=1254&hei=1044&fmt=jpeg&qlt=80&.v=1594932848000"></mj-image>
+            </mj-column>
+        </mj-section>
+
+        <mj-wrapper>
+            <mj-section padding="0 60px">
+                <mj-column>
+                    <mj-text>
+                        <div class="up">up to</div>
+                        <div class="value">3.2x</div>
+                        <div class="advantages">faster render</div>
+                    </mj-text>
+                    <mj-image align="left" height="4px" width="96px"
+                              src="https://funart.pro/uploads/posts/2021-04/thumbs/1618531822_44-funart_pro-p-oboi-fon-oranzhevii-gradient-45.jpg"></mj-image>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-text>
+                        <div class="up">up to</div>
+                        <div class="value">8+</div>
+                        <div class="advantages">streams of 4k video</div>
+                    </mj-text>
+                    <mj-image align="left" height="4px" width="96px"
+                              src="https://funart.pro/uploads/posts/2021-04/thumbs/1618531822_44-funart_pro-p-oboi-fon-oranzhevii-gradient-45.jpg"></mj-image>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="">
+                <mj-column>
+                    <mj-text>
+                        <div class="up">up to</div>
+                        <div class="value">2x</div>
+                        <div class="advantages">faster running time</div>
+                    </mj-text>
+                    <mj-image align="left" height="4px" width="96px"
+                              src="https://funart.pro/uploads/posts/2021-04/thumbs/1618531822_44-funart_pro-p-oboi-fon-oranzhevii-gradient-45.jpg"></mj-image>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
     </mj-body>
 </mjml>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
